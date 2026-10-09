@@ -48,7 +48,7 @@ function initCanvas() {
         const gCtx = goldCanvas.getContext("2d");
         gCtx.scale(dpr, dpr);
 
-        gCtx.drawImage(heartImg, offsetX, 0, w, h);
+        gCtx.drawImage(heartImg, 0, 0, w, h);
         gCtx.globalCompositeOperation = "source-in";
         gCtx.fillStyle = "#dce0ff";
         gCtx.fillRect(0, 0, w, h);
@@ -63,7 +63,7 @@ function initCanvas() {
         }
 
         // 3. Vykreslení stírací vrstvy (růží)
-        ctx.drawImage(heartImg, offsetX, 0, w, h);
+        ctx.drawImage(heartImg, 0, 0, w, h);
     }
 }
 
