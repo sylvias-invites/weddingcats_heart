@@ -71,7 +71,7 @@ body {
     width: 100%;
     max-width: 280px;
     /* Zachování poměru stran (šířka 400px : výška 340px) */
-    aspect-ratio: 280 / 340; 
+    aspect-ratio: 290 / 340; 
     margin: 10px auto;
 }
 
